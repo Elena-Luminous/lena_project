@@ -10,6 +10,16 @@
     src: url(../fonts/opensans_semibold.ttf);
 }
 
+@font-face {
+    font-family: "opensans_extrabold";
+    src: url(../fonts/opensans_extrabold.ttf);
+}
+
+@font-face {
+    font-family: "opensans_bold";
+    src: url(../fonts/opensans_bold.ttf);
+}
+
 .page_body
 {
     background-color: #dedede;
@@ -129,4 +139,120 @@ z-index: 1;
     font-size: 0;
     text-decoration: none;
     z-index: 1;
+  }
+
+  .page_wish_container
+  {
+    margin-top:90px;
+    align-content: ;
+  }
+
+  .page_wish_container__text
+  {
+    display: flex;
+    justify-content: center;
+    font-family: "lora_regular";
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 0;
+    margin-left: 50px;
+  }
+
+  .page_wish_container__buttons_container
+  {
+    display: flex;    
+    justify-content: center;
+  }
+
+  .page_wish_container__buttons_left_btn
+  {
+    margin-left: 110px;
+    margin-right: 70px;
+    padding: 15px 50px;
+    border: 1px solid #bc3324;
+    background-color: #bc3324;
+    outline: none;
+    color: #ffffff;
+    font-family: "opensans_regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .page_wish_container__buttons_left_btn:hover
+  {
+    background-color: #a51505;
+  }
+
+  .page_wish_container__buttons_right_btn
+  {
+    margin-left: 50px;
+    margin-right: 80px;
+    padding: 15px 50px;
+    border: 1px solid #1f1e1e;
+    background-color: transparent;
+    outline: none;
+    color: #1f1e1e;
+    font-family: "opensans_regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .page_wish_container__buttons_right_btn:hover
+  {
+    background-color: #1f1e1e;
+    color: #ffffff;
+  }
+
+  .page_about_title
+  {    
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 62px;
+    margin: 0 33.5% 150px;
+    padding: 5px 45px;
+    background-color: #1f1e1e;
+    color: #ffffff;
+    font-family: "lora_regular";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46.08px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 158px;
+  }
+
+  .page_about__headtext_01
+  {
+    font-family: "opensans_bold";
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-left: 270px;
+  }
+
+  .page_about__small_right_text_01
+  {
+    font-family: "opensans_regular";
+    max-width: 867px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.5px;
+    text-align: justify;    
+    margin-left: 38.5%;
   }

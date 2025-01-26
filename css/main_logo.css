@@ -22,7 +22,6 @@
   font-family: "lora_regular";
   font-weight: 400;
   font-size: 45px;
-  font-style: normal;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 80px;
@@ -31,7 +30,11 @@
 
 .logo_container__main_logo_img
 {
-  width: 1920px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: relative;  
+  width: 100%;
   height: 325px;
   margin-bottom: 70px;
 }
