@@ -1,3 +1,5 @@
+@import url(main_logo.css);
+
 @font-face {
     font-family: "opensans_regular";
     src: url(../fonts/opensans_regular.ttf);
@@ -29,8 +31,7 @@
 }
 .page_nav_links
 {
-    width: 732px;
-    height: 25px;    
+    width: 732px;   
 }
 .page_nav_links .links_style
 {
