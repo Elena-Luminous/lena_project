@@ -22,8 +22,17 @@
 
 .page_body
 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page_body
+{
+    max-width: 1920px;
     background-color: #dedede;
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/noise.png), url(../images/bg.jpg);
+    
 }
 .page_header
 {
@@ -141,6 +150,11 @@ z-index: 1;
     z-index: 1;
   }
 
+  .main
+  {
+    flex: 1 0 auto;
+  }
+
   .page_wish_container
   {
     margin-top:90px;
@@ -241,9 +255,10 @@ z-index: 1;
   {
     font-family: "opensans_bold";
     font-size: 44px;
+    color: #1f1e1e;    
     font-weight: 700;
     line-height: 60px;
-    margin-left: 270px;
+    margin-left: 280px;
   }
 
   .page_about__small_right_text_01
@@ -252,7 +267,232 @@ z-index: 1;
     max-width: 867px;
     font-size: 18px;
     font-weight: 400;
+    color: #1f1e1e;
     line-height: 24.5px;
     text-align: justify;    
     margin-left: 38.5%;
+  }
+
+  .page_about__img_01
+  {
+    margin-left: 280px;
+    margin-top: 50px;
+  }
+
+  .page_about__img_02
+  {
+    margin-left: 50px;
+    margin-bottom: -200px;
+  }
+
+  .page_about__headtext_02
+  {
+    font-family: "opensans_bold";
+    font-size: 44px;
+    font-weight: 700;
+    color: #1f1e1e;
+    line-height: 60px;
+    margin-left: 280px;
+    margin-top: 70px;
+  }
+
+  .page_about__small_right_text_02
+  {
+    font-family: "opensans_regular";
+    max-width: 867px;
+    font-size: 18px;
+    color: #1f1e1e;
+    font-weight: 400;
+    line-height: 24.5px;
+    text-align: justify;    
+    margin-left: 38.5%;
+  }  
+
+  .page_about__img_03
+  {
+    margin-left: 280px;
+    margin-top: 90px;
+  }
+
+  .page_about__small_right_text_03
+  {
+    font-family: "opensans_regular";
+    color: #1f1e1e;
+    max-width: 344px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.5px;
+    text-align: justify;    
+    margin-left: 68%;
+    margin-top: -220px;
+  }  
+
+  .page_about__small_right_text_04
+  {
+    font-family: "opensans_regular";
+    max-width: 344px;
+    font-size: 18px;
+    color: #1f1e1e;
+    font-weight: 600;
+    line-height: 24.5px;
+    text-align: justify;    
+    margin-left: 68%;
+    margin-top: 90px;
+  }  
+
+  .page_about__arrow_right
+  {
+    margin-left: 81%;
+    margin-top: -90px;
+    margin-bottom: 10px;
+  }
+
+  .main_page__events
+  {
+    background-image: url(../images/rectangle_white.png);    
+    margin-top: -50px;
+    height: 1236px;
+  }
+
+  .main_page__events_container
+  {
+    
+  }
+
+  .main_page__events_title
+  {    
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 62px;
+    margin: 0 33.5% 150px;
+    padding: 5px 45px;
+    background-color: #1f1e1e;
+    color: #ffffff;
+    font-family: "lora_regular";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46.08px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 258px;
+    margin-bottom: -20px;
+  }
+
+  .main_page_events_elements
+  {
+    margin-left: 280px;
+    margin-top: 50px;    
+  }
+
+  .main_page__events_imgs
+  {
+    margin-top: 90px;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  .main_page__events_descriptions_container_01
+  {
+    margin-top: 50px;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  .main_page__events_descriptions_container_02
+  {
+    margin-top: -195px;
+    margin-left: 470px;
+    margin-right: 22px;
+  }
+
+  .main_page__events_descriptions_container_03
+  {
+    margin-top: -195px;
+    margin-left: 930px;
+  }
+
+  .main_page__events_headline_link
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-decoration: none;
+    font-family: "opensans_bold";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    color: #1f1e1e;
+    transition: color 0.2s;
+  }
+
+  .main_page__events_headline_link:hover
+   {
+    color: #bc3324;
+    text-decoration-color: #bc3324;
+  }
+
+  .main_page__events_text_description
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-decoration: none;
+    font-family: "opensans_regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    color: #1f1e1e;
+  }
+
+  .main_page__events_text_info
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-decoration: none;
+    font-family: "opensans_regular";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19.07px;
+    color: #1f1e1e;
+  }
+
+  .main_page__events_nav_links
+  {
+    width: 100%;
+    margin-top: 90px;
+  }
+
+  .main_page__events_nav_links .links_style
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-left: 55px;
+    margin-right: 55px;
+    text-decoration: none;
+  }
+
+  .page_main_page__events_title
+  {    
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 62px;
+    margin: 0 33.5% 10px;
+    padding: 5px 25px;
+    background-color: #1f1e1e;
+    color: #ffffff;
+    font-family: "lora_regular";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46.08px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 128px;
   }

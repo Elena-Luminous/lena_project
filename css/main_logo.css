@@ -10,6 +10,7 @@
 
 .logo_container
 {
+  box-sizing: border-box;  
   width: 1920px;
   height: 639px;
   margin-top: 250px;
