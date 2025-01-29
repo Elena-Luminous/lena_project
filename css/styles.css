@@ -454,7 +454,7 @@ display: none;
 {
     display: flex;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 25px;
     text-decoration: none;
     font-family: "opensans_bold";
     font-size: 24px;
@@ -474,7 +474,7 @@ display: none;
 {
     display: flex;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 25px;
     width: 100%;
     text-decoration: none;
     font-family: "opensans_regular";
@@ -488,7 +488,7 @@ display: none;
 {
     display: flex;
     margin-top: 53px;
-    margin-left: 20px;
+    margin-left: 25px;
     width: 100%;
     text-decoration: none;
     font-family: "opensans_regular";
@@ -501,7 +501,7 @@ display: none;
 .main_page__events_text_info
 {
     display: flex;
-    margin-left: 20px;
+    margin-left: 25px;
     width: 100%;
     text-decoration: none;
     font-family: "opensans_regular";
@@ -519,8 +519,8 @@ display: none;
    justify-content: center;
    align-items: center;
    margin: 0 auto;
-   margin-top: 80px;    
-   margin-bottom: 200px;
+   margin-top: 80px;
+   margin-bottom: 100px;    
 }
 
 .main_page__events_nav_arrow_link
@@ -541,6 +541,31 @@ display: none;
     text-decoration: none;    
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.main_page__events_last_element
+{
+    display: flex;
+    width: 100%;
+    max-width: 1334px;
+    margin-left:90%;
+    margin-bottom: 150px;
+}
+
+.page__last_link_style
+{
+    font-family: "opensans_semibold";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;     
+    text-decoration: none;
+    color: #1f1e1e;
+    transition: color 0.2s;   
+}
+
+.page__last_link_style:hover
+{
+    color: #bc3324;
 }
 
 .page_main_page__blog_title
