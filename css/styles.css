@@ -39,9 +39,9 @@
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     height: 147px;
-    align-items: center;
     top: 0;
     left: 0;
     position: fixed;
@@ -281,78 +281,125 @@ display: none;
     margin-top: 200px;
 }
 
-.page_about__img_01
+.page_about__part_1
 {
-    margin-left: 280px;
+    width: 100%;
+    max-width: 1334px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.page_about__img_01
+{   
     margin-top: 50px;
+    object-fit: contain;
 }
 
 .page_about__img_02
 {
+    max-width: 404px;
+    object-fit: contain;
     margin-left: 50px;
-    margin-bottom: -200px;
+}
+
+.page_about__part_2
+{
+    width: 100%;
+    max-width: 1334px;    
+    display: flex;
+    position: relative;    
+    margin: 0 auto;
 }
 
 .page_about__headtext_02
-{
+{      
+    width: 100%;        
+    max-width: 868px;
     font-family: "opensans_bold";
     font-size: 44px;
+    color: #1f1e1e;    
     font-weight: 700;
-    color: #1f1e1e;
-    line-height: 60px;
-    margin-left: 280px;
-    margin-top: 70px;
+    line-height: 60px;  
+    position: absolute; 
 }
 
 .page_about__small_right_text_02
-{
-    font-family: "opensans_regular";
+{    
+    width: 100%;
     max-width: 867px;
     font-size: 18px;
-    color: #1f1e1e;
+    font-family: "opensans_regular";
     font-weight: 400;
+    color: #1f1e1e;
     line-height: 24.5px;
-    text-align: justify;    
-    margin-left: 38.5%;
-}  
+    text-align: justify;
+    margin-top: 200px; 
+    margin-left: 475px;   
+    osition: absolute; 
+}
+
+.page_about__part_3
+{
+    width: 100%;
+    max-width: 1334px;    
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
 
 .page_about__img_03
 {
-    margin-left: 280px;
+    width: 100%;
+    max-width: 930px;
     margin-top: 90px;
+}
+
+.page_about__part_3_1
+{   
+    width: 100%;
+    max-width: 344px;
+    margin-left: 60px;
+    margin-top: 100px;
 }
 
 .page_about__small_right_text_03
 {
     font-family: "opensans_regular";
     color: #1f1e1e;
-    max-width: 344px;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.5px;
-    text-align: justify;    
-    margin-left: 68%;
-    margin-top: -220px;
+    text-align: justify;  
 }  
+
+.page_about__part_3_2
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 344px;
+    margin-top: 100px;
+}
 
 .page_about__small_right_text_04
 {
     font-family: "opensans_regular";
-    max-width: 344px;
     font-size: 18px;
     color: #1f1e1e;
     font-weight: 600;
-    line-height: 24.5px;
-    text-align: justify;    
-    margin-left: 68%;
-    margin-top: 90px;
+    line-height: 24.5px;  
+    margin-right: 25%;
 }  
 
 .page_about__arrow_right
 {
-    margin-left: 81%;
-    margin-top: -90px;
-    margin-bottom: 10px;
+    width: 100%;
+    max-width: 91px;
+    margin-left: 25%;
 }
 
 .main_page__events
